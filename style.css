@@ -154,3 +154,59 @@ body {
     display: flex;
     align-self: flex-end;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    width: 1400px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.call-to-action__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action__sign-up-button {
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border-color: white;
+}
+
+.call-to-action__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.call-to-action__description {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
