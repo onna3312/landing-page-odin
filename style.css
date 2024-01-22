@@ -121,3 +121,36 @@ body {
     justify-content: center;
     
 }
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    padding: 20px;
+}
+
+.section-three__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: center;
+    margin: auto;
+}
+
+.section-three__quote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+    
+}
+
+.section-three__quote-attribution {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-self: flex-end;
+}
